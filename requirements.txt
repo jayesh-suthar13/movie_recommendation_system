@@ -1,0 +1,10 @@
+streamlit
+os
+gdown
+matplotlib
+seaborn
+numpy
+pandas
+scikit-learn
+requests
+pickle-mixin
