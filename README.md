@@ -45,6 +45,20 @@ This function retrieves the top 5 most similar movies to the given title using c
 * The model and vector data were saved using **pickle** for reuse.
 * A simple user interface was built using **Streamlit** where users can input a movie name and receive recommendations instantly.
 
+### 7. File structure 
+📦 movie-recommendation-system
+│
+├── README.md                     # Project overview + usage instructions
+├── requirements.txt              # All Python dependencies
+├── app.py                        # Flask/Streamlit app for deployment
+├── movie_recomm_system.ipynb     # Jupyter notebook (EDA, model training)
+├── movies.pkl                    # Saved similarity/model file
+├── tmdb_5000_movies.csv          # Dataset used for training
+│
+├── screenshots/                  # output/ui images
+   ├── Screenshot 2025-07-29 181251.png
+   └── Screenshot 2025-07-29 181251.png
+
 ##  Conclusion
 
 This recommendation system effectively demonstrates how content-based filtering can be implemented using Python and NLP techniques. It serves as a strong foundation for building more advanced hybrid or collaborative filtering systems in the future.
